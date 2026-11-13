@@ -1,0 +1,7 @@
+services:
+  transport-service:
+    build: .
+    container_name: transport-service
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
