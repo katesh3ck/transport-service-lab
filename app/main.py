@@ -7,6 +7,7 @@ app = FastAPI(
     title="Transport Service API",
     description="Микросервис для управления транспортными маршрутами. "
                 "Реализован REST API с поддержкой OpenAPI 3.0.",
+                "Лабораторная работа: REST API + OpenAPI + CI/CD."
     version="1.0.0",
     docs_url="/docs",
     redoc_url="/redoc",
